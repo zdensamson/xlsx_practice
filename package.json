@@ -1,0 +1,25 @@
+{
+  "name": "xlsx_practice",
+  "version": "1.0.0",
+  "description": "A working directory to test npm sheets functionality",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "xlsx": "^0.17.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zdensamson/xlsx_practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zdensamson/xlsx_practice/issues"
+  },
+  "homepage": "https://github.com/zdensamson/xlsx_practice#readme"
+}

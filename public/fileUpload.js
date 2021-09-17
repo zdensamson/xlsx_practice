@@ -1,3 +1,4 @@
+// LISTEN FOR FILE DROP
 document.querySelectorAll('.drop-zone__input').forEach(inputElement => {
     const dropZoneElement = inputElement.closest('.drop-zone');
 
@@ -39,9 +40,11 @@ document.querySelectorAll('.drop-zone__input').forEach(inputElement => {
     });
 });
 
+// DISPLAY THUMBNAIL FOR FILE DROP
 function updatThumbnail(dropZoneElement, file) {
     let thumbnailElement = dropZoneElement.querySelector(".drop-zone__thumb");
     
+    console.log(file);
     // First time - remove the prompt
     if (dropZoneElement.querySelector(".drop-zone__prompt")) {
         dropZoneElement.querySelector(".drop-zone__prompt").remove();
@@ -67,3 +70,4 @@ function updatThumbnail(dropZoneElement, file) {
         thumbnailElement.style.backgroundImage = null;
     }
 }
+
